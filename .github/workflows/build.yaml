@@ -20,7 +20,7 @@ jobs:
         run: java -version
         working directory: backend
 
-      -name: List files in the directory
+      - name: List files in the directory
         run: |
           ls ${{ github.workspace }}/backend
 
